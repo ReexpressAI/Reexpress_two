@@ -5,6 +5,16 @@
 # These scripts are provided for reference for researchers, but to just follow the tutorial,
 # you can download the preprocessed data from the releases tab in GitHub.
 
+# Alternatively, in macOS Terminal, navigate to your desired save directory and then run:
+
+# curl -L -O https://github.com/ReexpressAI/Reexpress_two/releases/download/v0.1.0-data/factcheck_gemma_4_31b_it_4bit.zip
+
+# and then unzip:
+
+# unzip factcheck_gemma_4_31b_it_4bit.zip
+
+# This will take about 1.3 GB of storage.
+
 #########################################################################################################
 ##################### Demo data
 #########################################################################################################
@@ -64,8 +74,11 @@ pip install mlx-lm==0.31.3
 mkdir /Users/a/Documents/projects/sdm_paper_extension/data/classification
 cd /Users/a/Documents/projects/sdm_paper_extension/data/classification
 
-# Download data (here, we'll just use the copy with embeddings from Mixtral-8x7b, which we'll discard)
-wget https://github.com/ReexpressAI/sdm_activations/releases/download/v1.0.0/factcheck_mixtral_8x7b.zip
+# Download data (here, we'll just use the copy with embeddings from Mixtral-8x7b, which we'll discard).
+# Use the following (curl is available by default on macOS 27), or go to the GitHub release
+# tab and download directly from the https://github.com/ReexpressAI/sdm_activations directory.
+
+# curl -L -O https://github.com/ReexpressAI/Reexpress_two/releases/download/v0.1.0-data/factcheck_gemma_4_31b_it_4bit.zip
 
 #########################################################################################################
 ##################### Process Factcheck data

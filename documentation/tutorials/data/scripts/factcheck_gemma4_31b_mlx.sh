@@ -1,4 +1,11 @@
 #########################################################################################################
+##################### Download
+#########################################################################################################
+
+# These scripts are provided for reference for researchers, but to just follow the tutorial,
+# you can download the preprocessed data from the releases tab in GitHub.
+
+#########################################################################################################
 ##################### Demo data
 #########################################################################################################
 
@@ -17,6 +24,24 @@
 # This has been Tested on an M2 Ultra 76 core 128 GB Mac Studio.
 
 # Substitute your local file paths, where applicable, in the below.
+
+
+#########################################################################################################
+##################### Sources
+#########################################################################################################
+
+#The factcheck data is the publicly available data from the following work:
+#
+#Amos Azaria and Tom Mitchell. 2023. The internal state of an LLM knows when it's lying. In Findings of the Association for Computational Linguistics: EMNLP 2023, pages 967–976, Singapore. Association for Computational Linguistics.
+#
+#Additional information about Gemma 4 is available in:
+#
+#Team, Gemma, et al. "Gemma 4 technical report." arXiv preprint arXiv:2607.02770 (2026).
+#
+#Additional information about MLX is available in: 
+#
+#Hannun, Awni, et al. "MLX: Efficient and flexible machine learning on Apple silicon." https://github.com/ml-explore/mlx, version 0.x (2023).
+    
 
 #########################################################################################################
 ##################### Install dependencies

@@ -78,7 +78,7 @@ cd /Users/a/Documents/projects/sdm_paper_extension/data/classification
 # Use the following (curl is available by default on macOS 27), or go to the GitHub release
 # tab and download directly from the https://github.com/ReexpressAI/sdm_activations directory.
 
-# curl -L -O https://github.com/ReexpressAI/Reexpress_two/releases/download/v0.1.0-data/factcheck_gemma_4_31b_it_4bit.zip
+# curl -L -O https://github.com/ReexpressAI/sdm_activations/releases/download/v1.0.0/factcheck_mixtral_8x7b.zip
 
 #########################################################################################################
 ##################### Process Factcheck data

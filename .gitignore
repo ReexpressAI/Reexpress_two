@@ -1,0 +1,51 @@
+# macOS Finder metadata
+.DS_Store
+
+# Local JetBrains/PyCharm project settings
+.idea/
+
+# Python bytecode, packaging output, and local virtual environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+*.egg
+*.whl
+build/
+dist/
+wheels/
+.venv/
+venv/
+
+# Python tool caches and generated coverage reports
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.ipynb_checkpoints/
+.coverage
+.coverage.*
+htmlcov/
+
+# Swift Package Manager and Xcode build output
+.build/
+DerivedData/
+Dist/
+*.app/
+*.xcarchive/
+*.xcresult/
+*.dSYM/
+*.dSYM.zip
+*.profraw
+*.profdata
+
+# Per-user Xcode settings; shared projects, workspaces, and schemes stay included
+xcuserdata/
+*.xcuserstate
+
+# Reexpress data formats
+*.sdmkitmodel
+*.sdmdataset
+*.sdmproject

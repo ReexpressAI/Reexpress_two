@@ -43,3 +43,7 @@ file-access permissions and availability.
 Use model and dataset exports to exchange artifacts with the Python package or
 other projects. Use a full `.sdmproject` copy when you want to preserve the
 complete project for use in Reexpress two.
+
+## How large can the training/calibration set be given my available compute?
+
+The standalone [training capacity calculator](https://github.com/ReexpressAI/reexpress_sdm/blob/main/docs/tools/README.md) estimates memory ranges and approximate row counts for Reexpress two and the Python package reexpress_sdm. That script itself uses only Python's standard library, separates CUDA system/GPU memory, and reports its assumptions. The script provides planning estimates, not guarantees, and other factors (including, but not limited to, other processes running at the same time) can impact the achievable capacity in practice.
